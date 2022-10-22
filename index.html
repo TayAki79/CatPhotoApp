@@ -32,7 +32,26 @@
                 <li>thunder</li>
                 <li>other cats</li>
             </ol>
-            
+            <figure>
+                <figcaption>Cats <strong>hate</strong> other cats.</figcaption>
+                <img src="./images/cats.jpeg" alt="Cats looking around">
+            </figure>
+        </section>
+        <section>
+            <h2>Cat Form</h2>
+            <form action="https://freecatphotoapp.com/submit-cat-photo">
+                <fieldset>
+                    <legend>Is your cat an indoor or outdoor cat?</legend>
+                    <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor" checked value="indoor"></label>
+                    <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"></label>
+                </fieldset>
+                <fieldset>
+                    <legend>What's your cat's personality?</legend>
+                    <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
+                    <input id="lazy" type="checkbox" name="personality" value="lazy" checked> <label for="loving">Lazy</label>
+                    <input id="energetic" type="checkbox" name="personality" value="energetic" checked> <label for="energetic">Energetic</label>
+                </fieldset>
+            </form>
         </section>
     </main>
     </body>
